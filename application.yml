@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/GIDDALURI-BALA-VENAKTA-PRAVEEN/03-argocd.git
-    targetRevision: master
+    targetRevision: main
     path: manifests
   destination:
     server: https://kubernetes.default.svc
